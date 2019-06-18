@@ -1,0 +1,201 @@
+body {
+    padding: 5px;
+}
+
+.introjs-helperNumberLayer {
+    top: 30px !important;
+    left: 50px !important;
+}
+
+.introjs-tooltip {
+    min-width: 300px !important;
+}
+
+.footerInfo {
+    float: left;
+    color: #555;
+    font-weight: normal;
+}
+
+.mainButton {
+    background: linear-gradient(to bottom, rgb(128 128 128) 0%, rgb(16 16 16) 100%);
+}
+
+.tabulator-page {
+    color: #555 !important;
+}
+
+.large {
+    font-size: 1.5em;
+}
+
+.medium {
+    font-size: 1em;
+}
+
+.small {
+    font-size: 0.70em;
+}
+
+.labelFileInput {
+    cursor: pointer;
+}
+
+#fileInput,
+#fileInputMappage {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    white-space: nowrap;
+    margin-right: 0.5em;
+    padding: 2px;
+}
+
+.labelProfile {
+    color: red;
+    font-weight: 900;
+}
+
+.normal {
+    color: #222;
+    font-weight: normal;
+}
+
+.blink {
+    animation-duration: 1s;
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.shaker {
+    animation: shake 0.75s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    background-color: #FFE5E4;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.swal-content {
+    background-color: #E6F5F5;
+    padding: 2px;
+    border: #BED7F5 solid 1px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+    text-align: justify;
+    color: #61534e;
+}
+
+.swal-content h4 {
+    text-align: center;
+}
+
+.swal-button {
+    padding: 2px 5px;
+}
+
+.sweetalert-lg {
+    width: 800px;
+}
+
+.sweetalert-auto {
+    width: auto;
+}
+
+.sweetalert-img {
+    text-align: center;
+    width: 1024px;
+}
+
+.sweetalert-table {
+    text-align: center;
+    width: 1366px;
+}
+
+table.pvtTable {
+    font-size: 8pt;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.pvtTable thead tr th {
+    background-color: #F0F5FE;
+    color: #555;
+    border: #CDCDCD solid 1px;
+    padding: 2px;
+}
+
+table.pvtTable thead tr th:first-child {
+    width: auto;
+    min-width: 20px;
+}
+
+table.pvtTable tbody tr th {
+    background-color: #F0F5FE;
+    color: #555;
+    border: #CDCDCD solid 1px;
+    padding: 2px;
+    text-align: left;
+    vertical-align: top;
+}
+
+table.pvtTable tbody tr td {
+    color: #3D3D3D;
+    padding: 2px;
+    background-color: #FFF;
+    border: #CDCDCD solid 1px;
+    vertical-align: top;
+}
+
+table.pvtTable tbody tr td:first-child {
+    width: auto;
+    min-width: 20px;
+}
